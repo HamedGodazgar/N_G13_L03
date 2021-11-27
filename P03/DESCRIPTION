@@ -1,0 +1,27 @@
+Package: P03
+Type: Package
+Title: Greatest Common Divisor and Shortest Path
+Version: 0.0.0.9000
+Date: 2021-09-11
+Authors@R: 
+  person(given = 'Hamed',
+         family = 'Godazgar',
+         role = c('aut' , 'cre'),
+         email = 'hamed.godazgar@gmail.com')
+Maintainer: Omid Lavakhamseh <omidlava2021@gmail.com>
+Description: This package calculates Greatest Xommon Divisor (GCD) 
+             which returns GCD of two numbers, and Shortest Path 
+             from the initial node to every other node in the graph.
+Details: This package calculates Greatest Common Divisor (GCD) 
+         and the Shortest Path from the initial node to every
+         other node in the graph.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: TRUE
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+Imports:
+    igraph(>= 1.2.6)
+
