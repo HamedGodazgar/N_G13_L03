@@ -5,7 +5,7 @@
 \alias{wiki_graph}
 \title{Wiki Graph Data}
 \format{
-A data frame with 18 rows and 3 variables.
+A data frame with 18 rows and 3 variables:
 \describe{
 \item{v1}{index of the source edge}
 \item{v2}{index of the destination edge}
@@ -13,12 +13,12 @@ A data frame with 18 rows and 3 variables.
 }
 }
 \source{
-\href{https://en.wikipedia.org/wiki/Dijkstra\\%27s_algorithm}{Wikipedia - Dijkstra's algorithm}
+\url{https://en.wikipedia.org/wiki/Graph#Mathematics}
 }
 \usage{
 wiki_graph
 }
 \description{
-
+An example data frame with 18 rows and 3 variables.
 }
 \keyword{datasets}

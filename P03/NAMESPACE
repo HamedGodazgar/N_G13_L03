@@ -3,3 +3,4 @@
 export(dijkstra)
 export(euclidean)
 import(igraph)
+importFrom(graphics,par)

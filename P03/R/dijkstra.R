@@ -4,6 +4,7 @@
 #' @description recieve graph and initial node and calculate shortest path.
 #' @export dijkstra
 #' @import igraph
+#' @importFrom graphics par
 #' @param graph data frame
 #' @param init_node number
 #' @references \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
